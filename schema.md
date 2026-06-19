@@ -40,6 +40,7 @@ Pensiamo a quali entità (tabelle) creare per il nostro database e cerchiamo poi
 - id
 - corsi
 - id corsi_di_laurea FK
+- id_insegnanti FK
 
 
 
@@ -47,19 +48,18 @@ Pensiamo a quali entità (tabelle) creare per il nostro database e cerchiamo poi
 - id
 - nome_studente
 - cognome_studente
-- id corsi_di_laure
+- id corsi_di_laure FK
 
 # Table esito_voto
 - id
 - esito voto
-- id corso FK
-- id studente FK
+- id_corso FK
+- id_studente FK
 
 
 # Table insegnanti 
 - id
 - insegnanti
-- id corso KF
 
 
 
